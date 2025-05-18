@@ -6,10 +6,20 @@
     <title>Min Myat Maung | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <header>
-        <h1>Min Myat Maung</h1>
-        <p>Computer Science Student</p>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+
+        <div class="header-content">
+            <img src="Min_Myat_Maung_profile.JPG" alt="Profile Picture" class="profile-header-pic" />
+            <div>
+                <h1>Min Myat Maung</h1>
+                <p>Computer Science Student</p>
+                <p>California State University Fullerton</p>
+            </div>
+        </div>
+
         <nav>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
@@ -19,12 +29,14 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I'm a computer science stududent studying at Cal State Fullerton passionate about software development, algorithms, and building useful tools.</p>
+        <p>A computer science stududent studying at Cal State Fullerton passionate about software development, algorithms, and building useful tools.</p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
 
+        <hr />
+        
         <div class="projects">
             <h3>Telegram horoscope bot</h3>
             <p>A horoscope bot in telegram that tells your horoscope on the day of your choice.</p>
@@ -32,11 +44,22 @@
             <a href="https://github.com/MinMyatMaung/horoscope_bot" target="_blank">GitHub Repo Link</a>
         </div>
 
+        <hr />
+
         <div class="projects">
             <h3>Expense Tracker</h3>
             <p>An expense tracker built by using python tkinter where you can add expense, view expenses, and view summary</p>
             <p><strong>Tech:</strong> Python, CSV</p>
             <a href="https://github.com/MinMyatMaung/expense_tracker" target="_blank">GitHub Repo Link</a>
+        </div>
+
+        <hr />
+
+        <div class="projects">
+            <h3>University Course Management System</h3>
+            <p>A university course manage system that lets you search for courses, view prerequisites, calculate total units, and manage a dynamic list of courses using a linked list data structures</p>
+            <p><strong>Tech:</strong> C++</p>
+            <a href="https://github.com/MinMyatMaung/University_Course_Management_System" target="_blank">GitHub Repo Link</a>
         </div>
     </section>
 
@@ -44,10 +67,13 @@
         <h2>Contact</h2>
         <p>Email: <a href="rickyminmyatmaung@gmail.com">rickyminmyatmaung@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/MinMyatMaung">github.com/MinMyatMaung</a></p>
+        <p>LinkedIn: <a href="www.linkedin.com/in/min-myat-maung-b65852289">linkedin.com/MinMyatMaung</a></p>
     </section>
 
     <footer>
         <p>2025 Min Myat Maung</p>
     </footer>
+
+     <script src="theme.js"></script>
 </body>
 </html>
